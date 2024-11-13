@@ -6,7 +6,7 @@ import retrofit2.http.GET
 import retrofit2.http.Query
 
 interface YandexGPTService {
-    @GET("api/v1/calculate_calories")
+    @GET("tocken")
     suspend fun calculateCalories(@Query("product") product: String): Response<CalorieResponse>
 }
 
