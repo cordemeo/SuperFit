@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#C1C454"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/inter_bold"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:text="Выберите прием пищи"
+        android:textSize="26sp"
+        android:gravity="center"
+        android:layout_marginBottom="24dp" />
+
+    <Button
+        android:id="@+id/buttonBreakfast"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textStyle="bold"
+        android:backgroundTint="#111920"
+        android:textSize="16sp"
+        android:textColor="#E7F5DE"
+        android:text="Завтрак" />
+
+    <Button
+        android:id="@+id/buttonLunch"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textStyle="bold"
+        android:backgroundTint="#111920"
+        android:textSize="16sp"
+        android:textColor="#E7F5DE"
+        android:text="Обед"
+        android:layout_marginTop="16dp" />
+
+    <Button
+        android:id="@+id/buttonSnack"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textStyle="bold"
+        android:backgroundTint="#111920"
+        android:textSize="16sp"
+        android:textColor="#E7F5DE"
+        android:text="Полдник"
+        android:layout_marginTop="16dp" />
+
+    <Button
+        android:id="@+id/buttonDinner"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textStyle="bold"
+        android:backgroundTint="#111920"
+        android:textSize="16sp"
+        android:textColor="#E7F5DE"
+        android:text="Ужин"
+        android:layout_marginTop="16dp" />
+</LinearLayout>
